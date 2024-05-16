@@ -1,5 +1,5 @@
 def print_upper_words(words):
-
+    """uppercases given string the prints."""
     # LOOP THROUGH
     for char in words:
 
@@ -7,6 +7,7 @@ def print_upper_words(words):
         return char.upper()
     
 def printEs(words):
+    """prints only words that start with e/E."""
     # LOOP THROUGH
     for word in words:
 
@@ -17,6 +18,7 @@ def printEs(words):
             print(word.upper())
 
 def print_upper_words2(words, must_start_with):
+    """prints only words that start with a given letter."""
     # FOR EACH WORD
     for word in words:
 
