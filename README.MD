@@ -1,0 +1,1 @@
+Python exercise solving various problems using logic, loops,  and defining functions.
